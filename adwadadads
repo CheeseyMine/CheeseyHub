@@ -1,5 +1,5 @@
 -- Gui to Lua
--- Version: 3.2
+-- Version: 3.3
 
 -- Instances:
 
@@ -61,8 +61,6 @@ script1.Font = Enum.Font.SourceSans
 script1.Text = "FE Fly"
 script1.TextColor3 = Color3.fromRGB(0, 0, 0)
 script1.TextSize = 14.000
-games.MouseButton1Down:Connect(function()
-end)
 
 script2.Name = "script2"
 script2.Parent = main
@@ -74,7 +72,7 @@ script2.Font = Enum.Font.SourceSans
 script2.Text = "MarineHub"
 script2.TextColor3 = Color3.fromRGB(0, 0, 0)
 script2.TextSize = 14.000
-games.MouseButton1Down:Connect(function()
+script2.MouseButton1Down:Connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Hypious/Marine-Hub/main/Main"))()
 end)
 
@@ -86,10 +84,6 @@ gamehub.BorderColor3 = Color3.fromRGB(244, 255, 142)
 gamehub.BorderSizePixel = 5
 gamehub.Position = UDim2.new(-1.03856301, 0, 0.0581341423, 0)
 gamehub.Size = UDim2.new(0, 257, 0, 327)
-gamehub.Visible = true
-gamehub.MouseButton1Down:Connect(function()
-
-end)
 
 script3.Name = "script3"
 script3.Parent = gamehub
@@ -130,7 +124,7 @@ script5.Text = "Jailbreak Autorob"
 script5.TextColor3 = Color3.fromRGB(0, 0, 0)
 script5.TextSize = 14.000
 script5.MouseButton1Down:Connect(function()
-
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))()
 end)
 
 script6.Name = "script6"
@@ -186,7 +180,7 @@ script9.Text = "YBA"
 script9.TextColor3 = Color3.fromRGB(0, 0, 0)
 script9.TextSize = 14.000
 script9.MouseButton1Down:Connect(function()
-	
+
 end)
 
 TextLabel.Parent = main
@@ -243,7 +237,7 @@ end)
 
 -- Scripts:
 
-local function YPXGID_fake_script() -- games.Rainbow Frame 
+local function SSBY_fake_script() -- games.Rainbow Frame 
 	local script = Instance.new('LocalScript', games)
 
 	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
@@ -258,8 +252,8 @@ local function YPXGID_fake_script() -- games.Rainbow Frame
 	
 	--Enjoy ;) dont change anything. I didnt script this so i dont know if you can change but its adviced not 2
 end
-coroutine.wrap(YPXGID_fake_script)()
-local function TKXZTMQ_fake_script() -- script1.Rainbow Frame 
+coroutine.wrap(SSBY_fake_script)()
+local function OLPFOLM_fake_script() -- script1.Rainbow Frame 
 	local script = Instance.new('LocalScript', script1)
 
 	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
@@ -274,8 +268,8 @@ local function TKXZTMQ_fake_script() -- script1.Rainbow Frame
 	
 	--Enjoy ;) dont change anything. I didnt script this so i dont know if you can change but its adviced not 2
 end
-coroutine.wrap(TKXZTMQ_fake_script)()
-local function SDSLKAV_fake_script() -- script2.Rainbow Frame 
+coroutine.wrap(OLPFOLM_fake_script)()
+local function MNUSCG_fake_script() -- script2.Rainbow Frame 
 	local script = Instance.new('LocalScript', script2)
 
 	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
@@ -290,8 +284,8 @@ local function SDSLKAV_fake_script() -- script2.Rainbow Frame
 	
 	--Enjoy ;) dont change anything. I didnt script this so i dont know if you can change but its adviced not 2
 end
-coroutine.wrap(SDSLKAV_fake_script)()
-local function VVSEEW_fake_script() -- script3.Rainbow Frame 
+coroutine.wrap(MNUSCG_fake_script)()
+local function JBLF_fake_script() -- script3.Rainbow Frame 
 	local script = Instance.new('LocalScript', script3)
 
 	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
@@ -306,8 +300,8 @@ local function VVSEEW_fake_script() -- script3.Rainbow Frame
 	
 	--Enjoy ;) dont change anything. I didnt script this so i dont know if you can change but its adviced not 2
 end
-coroutine.wrap(VVSEEW_fake_script)()
-local function NZYOIK_fake_script() -- script4.Rainbow Frame 
+coroutine.wrap(JBLF_fake_script)()
+local function TRDHFPB_fake_script() -- script4.Rainbow Frame 
 	local script = Instance.new('LocalScript', script4)
 
 	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
@@ -322,8 +316,8 @@ local function NZYOIK_fake_script() -- script4.Rainbow Frame
 	
 	--Enjoy ;) dont change anything. I didnt script this so i dont know if you can change but its adviced not 2
 end
-coroutine.wrap(NZYOIK_fake_script)()
-local function DIFXRV_fake_script() -- script5.Rainbow Frame 
+coroutine.wrap(TRDHFPB_fake_script)()
+local function THRPZU_fake_script() -- script5.Rainbow Frame 
 	local script = Instance.new('LocalScript', script5)
 
 	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
@@ -338,8 +332,8 @@ local function DIFXRV_fake_script() -- script5.Rainbow Frame
 	
 	--Enjoy ;) dont change anything. I didnt script this so i dont know if you can change but its adviced not 2
 end
-coroutine.wrap(DIFXRV_fake_script)()
-local function FKGFCH_fake_script() -- script6.Rainbow Frame 
+coroutine.wrap(THRPZU_fake_script)()
+local function IONIU_fake_script() -- script6.Rainbow Frame 
 	local script = Instance.new('LocalScript', script6)
 
 	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
@@ -354,8 +348,8 @@ local function FKGFCH_fake_script() -- script6.Rainbow Frame
 	
 	--Enjoy ;) dont change anything. I didnt script this so i dont know if you can change but its adviced not 2
 end
-coroutine.wrap(FKGFCH_fake_script)()
-local function IPHZX_fake_script() -- script7.Rainbow Frame 
+coroutine.wrap(IONIU_fake_script)()
+local function MXQLNM_fake_script() -- script7.Rainbow Frame 
 	local script = Instance.new('LocalScript', script7)
 
 	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
@@ -370,8 +364,8 @@ local function IPHZX_fake_script() -- script7.Rainbow Frame
 	
 	--Enjoy ;) dont change anything. I didnt script this so i dont know if you can change but its adviced not 2
 end
-coroutine.wrap(IPHZX_fake_script)()
-local function JZAI_fake_script() -- script8.Rainbow Frame 
+coroutine.wrap(MXQLNM_fake_script)()
+local function GBEXS_fake_script() -- script8.Rainbow Frame 
 	local script = Instance.new('LocalScript', script8)
 
 	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
@@ -386,8 +380,8 @@ local function JZAI_fake_script() -- script8.Rainbow Frame
 	
 	--Enjoy ;) dont change anything. I didnt script this so i dont know if you can change but its adviced not 2
 end
-coroutine.wrap(JZAI_fake_script)()
-local function MDOMPT_fake_script() -- gamehub.Rainbow Frame 
+coroutine.wrap(GBEXS_fake_script)()
+local function YMQGNDP_fake_script() -- gamehub.Rainbow Frame 
 	local script = Instance.new('LocalScript', gamehub)
 
 	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
@@ -402,8 +396,8 @@ local function MDOMPT_fake_script() -- gamehub.Rainbow Frame
 	
 	--Enjoy ;) dont change anything. I didnt script this so i dont know if you can change but its adviced not 2
 end
-coroutine.wrap(MDOMPT_fake_script)()
-local function AXOM_fake_script() -- script9.Rainbow Frame 
+coroutine.wrap(YMQGNDP_fake_script)()
+local function IAQNOA_fake_script() -- script9.Rainbow Frame 
 	local script = Instance.new('LocalScript', script9)
 
 	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
@@ -418,8 +412,8 @@ local function AXOM_fake_script() -- script9.Rainbow Frame
 	
 	--Enjoy ;) dont change anything. I didnt script this so i dont know if you can change but its adviced not 2
 end
-coroutine.wrap(AXOM_fake_script)()
-local function WZRA_fake_script() -- TextLabel.Rainbow Frame 
+coroutine.wrap(IAQNOA_fake_script)()
+local function JEJONCM_fake_script() -- TextLabel.Rainbow Frame 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
@@ -434,8 +428,8 @@ local function WZRA_fake_script() -- TextLabel.Rainbow Frame
 	
 	--Enjoy ;) dont change anything. I didnt script this so i dont know if you can change but its adviced not 2
 end
-coroutine.wrap(WZRA_fake_script)()
-local function RLTMEFL_fake_script() -- main.Rainbow Frame 
+coroutine.wrap(JEJONCM_fake_script)()
+local function EVEVTPP_fake_script() -- main.Rainbow Frame 
 	local script = Instance.new('LocalScript', main)
 
 	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
@@ -450,8 +444,8 @@ local function RLTMEFL_fake_script() -- main.Rainbow Frame
 	
 	--Enjoy ;) dont change anything. I didnt script this so i dont know if you can change but its adviced not 2
 end
-coroutine.wrap(RLTMEFL_fake_script)()
-local function XNMC_fake_script() -- delete.Rainbow Frame 
+coroutine.wrap(EVEVTPP_fake_script)()
+local function IDLO_fake_script() -- delete.Rainbow Frame 
 	local script = Instance.new('LocalScript', delete)
 
 	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
@@ -466,8 +460,8 @@ local function XNMC_fake_script() -- delete.Rainbow Frame
 	
 	--Enjoy ;) dont change anything. I didnt script this so i dont know if you can change but its adviced not 2
 end
-coroutine.wrap(XNMC_fake_script)()
-local function DGJSAK_fake_script() -- delete.Rainbow Frame 
+coroutine.wrap(IDLO_fake_script)()
+local function AVICFKF_fake_script() -- delete.Rainbow Frame 
 	local script = Instance.new('LocalScript', delete)
 
 	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
@@ -482,8 +476,8 @@ local function DGJSAK_fake_script() -- delete.Rainbow Frame
 	
 	--Enjoy ;) dont change anything. I didnt script this so i dont know if you can change but its adviced not 2
 end
-coroutine.wrap(DGJSAK_fake_script)()
-local function ZNLJEB_fake_script() -- script3_2.Rainbow Frame 
+coroutine.wrap(AVICFKF_fake_script)()
+local function JEYDFZ_fake_script() -- script3_2.Rainbow Frame 
 	local script = Instance.new('LocalScript', script3_2)
 
 	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
@@ -498,8 +492,8 @@ local function ZNLJEB_fake_script() -- script3_2.Rainbow Frame
 	
 	--Enjoy ;) dont change anything. I didnt script this so i dont know if you can change but its adviced not 2
 end
-coroutine.wrap(ZNLJEB_fake_script)()
-local function TMHGP_fake_script() -- CheeseyHub.dragscript 
+coroutine.wrap(JEYDFZ_fake_script)()
+local function COMZ_fake_script() -- CheeseyHub.dragscript 
 	local script = Instance.new('LocalScript', CheeseyHub)
 
 	frame = script.Parent.Frame 
@@ -508,4 +502,4 @@ local function TMHGP_fake_script() -- CheeseyHub.dragscript
 	frame.Selectable = true
 	
 end
-coroutine.wrap(TMHGP_fake_script)()
+coroutine.wrap(COMZ_fake_script)()
