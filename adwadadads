@@ -139,7 +139,9 @@ script6.Text = "Da Hood"
 script6.TextColor3 = Color3.fromRGB(0, 0, 0)
 script6.TextSize = 14.000
 script6.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/WCodexDude/Main/main/CapsLockLoader", true))()
+	pcall(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/VigoWL/RottenHub-DaHood/main/perferudctelaptoruskorpotusloartkeaoreafeial.lua"))()
+	end)
 end)
 
 script7.Name = "script7"
