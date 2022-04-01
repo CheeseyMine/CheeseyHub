@@ -84,6 +84,7 @@ gamehub.BorderColor3 = Color3.fromRGB(244, 255, 142)
 gamehub.BorderSizePixel = 5
 gamehub.Position = UDim2.new(-1.03856301, 0, 0.0581341423, 0)
 gamehub.Size = UDim2.new(0, 257, 0, 327)
+gamehub.Visible = true
 
 script3.Name = "script3"
 script3.Parent = gamehub
