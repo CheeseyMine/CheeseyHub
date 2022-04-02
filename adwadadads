@@ -183,7 +183,7 @@ script9.Text = "YBA"
 script9.TextColor3 = Color3.fromRGB(0, 0, 0)
 script9.TextSize = 14.000
 script9.MouseButton1Down:Connect(function()
-
+	loadstring(game:HttpGet"https://raw.githubusercontent.com/NukeVsCity/hackscript123/main/gui")()
 end)
 
 TextLabel.Parent = main
