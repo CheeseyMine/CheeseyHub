@@ -20,6 +20,8 @@ local TextLabel = Instance.new("TextLabel")
 local TextLabel_2 = Instance.new("TextLabel")
 local delete = Instance.new("TextButton")
 local script3_2 = Instance.new("TextButton")
+local script11 = Instance.new("TextButton")
+
 
 --Properties:
 
@@ -241,6 +243,42 @@ script3_2.MouseButton1Down:Connect(function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/Triple-Zs/Z0R/main/Z0R', true))()
 end)
 
+script11.Name = "script11"
+script11.Parent = main
+script11.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+script11.BorderColor3 = Color3.fromRGB(255, 251, 119)
+script11.Position = UDim2.new(0.023180306, 0, 0.420921326, 0)
+script11.Size = UDim2.new(0, 123, 0, 33)
+script11.Font = Enum.Font.SourceSans
+script11.Text = "Netless Bypass"
+script11.TextColor3 = Color3.fromRGB(0, 0, 0)
+script11.TextSize = 14.000
+script3_2.MouseButton1Down:Connect(function()
+	for i,v in next, game:GetService("Players").LocalPlayer.Character:GetDescendants() do
+
+		if v:IsA("BasePart") and v.Name ~="HumanoidRootPart" then
+
+			game:GetService("RunService").Heartbeat:connect(function()
+
+				v.Velocity = Vector3.new(0,35,0)
+
+				wait(0.5)
+
+			end)
+
+		end
+
+	end
+
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+
+		Title = "Notification";
+
+		Text = "Netless activated";
+
+		Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+	Duration = 16;
+end)
 -- Scripts:
 
 local function SSBY_fake_script() -- games.Rainbow Frame 
