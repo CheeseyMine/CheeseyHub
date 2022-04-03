@@ -1,0 +1,5 @@
+local inviteModule = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Discord%20Inviter/Source.lua"))()
+inviteModule.Prompt({
+name = "CheeseyHub (Have Your Discord Client Open To Join)",
+invite = "https://discord.gg/cMNzVWYF",
+})
